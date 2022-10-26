@@ -8,3 +8,645 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+    body {
+        background-color: #F3EAE2;
+        font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+        margin: auto 0%;
+       }
+
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #540B51;
+        margin-bottom: -3px;
+       
+    }
+
+    .slack-icon {
+         width: 170px;
+    height: 42px;
+
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .buttons {
+        display: none
+    }
+
+    .buttons-mobile {
+        display: flex;
+    margin-right: 0px;
+    height: 30px;
+    
+    }
+
+    .search {
+        margin-right: 30px;
+    }
+
+    header {
+        background-color: #540B51;
+        border-top: 0ch;
+    }
+    h1 {
+        color: whitesmoke;
+        font-size: 50px;
+        text-align: center;
+        margin-left: 10px;
+        margin: 0%;
+    }
+    
+    .product-image {
+        display: none;
+    }
+       img {
+max-width: 100%;
+       }    
+
+       .hero-2 {
+        width: 767px;
+        height: 650px;
+        margin-bottom: -40px;
+       }
+
+    header p {
+        color: whitesmoke;
+        font-size: 30px;
+        text-align: center;
+   
+    }
+    header p span {
+        color: #ECB12F;
+    }
+    .sign-up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sign-up-button {
+        width: 600px;
+        height: 100px;
+        margin-bottom: 20px;
+        background-color: whitesmoke;
+        text-transform: uppercase;
+        color:#540B51;
+        font-weight: 600;
+        font-size: larger;
+    }
+    .google-button {
+        width: 600px;
+        height: 100px;
+        background-color: #4285F4;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: larger;
+        display: flex;
+        margin-bottom: 30px;
+
+    }
+
+    .google-logo {
+        background-color: whitesmoke;
+        width: 75px;
+        margin-top: 5px;
+        
+    }
+
+    .sign-up-google {
+        margin-left: 115px;
+        margin-top: 30px;
+    }
+
+    .company {
+        background-color: #F3EAE2;
+    }
+
+    .company p {
+        font-size: 25px;
+        padding-top: 70px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 40px;
+    }
+.comp-logos {
+    display: flex;
+
+}
+
+.comp-logos-raw1 {
+    display: flex;
+   justify-content: space-evenly;
+   padding-bottom: 40px;
+}
+
+.comp-logos-raw2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 140px;
+}
+
+.airbnb {
+    width: 200px;
+    height: 90px;
+}
+.nasa {
+    width: 120px;
+    height: 100px;
+}
+
+.uber {
+    width: 150px;
+    height: 70px;
+}
+
+.target {
+    width: 100px;
+    height: 100px;
+}
+.nyt {
+    width: 300px;
+    height: 90px;
+}
+
+.spotify {
+    width: 240px;
+    height: 100px;
+}
+
+.connect {
+    width: 768px;
+    height: 750px;
+    margin-top: -3px;
+    margin-bottom: -30px;
+}
+
+.flexibility {
+    width: 768px;
+    height: 750px;
+    margin-top: -3px;
+    margin-bottom: -5px;
+}
+.speed {
+    width: 768px;
+    height: 750px;
+    margin-top: -3px;
+}
+
+    .speed2 {
+        display: none;
+    }
+
+
+.channel {
+    background-color: #F3EAE2;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.channel p {
+   margin-left: 30px;
+   font-size: 24px;
+   font-weight: 400
+   
+}
+
+.link1 {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #2E71A6;
+}
+
+.linkarrow {
+    padding-bottom: 140px;
+}
+
+.work { background-color: #F3EAE2;
+    padding-top: 30px;
+}
+
+.work p {
+    margin-left: 30px;
+   font-size: 24px;
+   font-weight: 400
+}
+
+.link2 {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #2E71A6;
+}
+
+.linkarrow2 {
+    padding-bottom: 140px;
+}
+
+.fast {
+    background-color: #F3EAE2;
+    
+}
+
+.fast p {
+    margin-left: 30px;
+   font-size: 24px;
+   font-weight: 400
+}
+
+
+.link3 {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #2E71A6;
+}
+
+.linkarrow3 {
+    padding-bottom: 70px;
+}
+
+.teams {
+    background-color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.teams p {
+    font-size: 20px;
+}
+
+.teams-buttons {
+    display: flex;
+    flex-direction: column;
+}
+.teambutton1 {
+    width: 660px;
+    height: 70px;
+    margin-left: 50px;
+    background-color: #540B51;
+    color: whitesmoke;
+    text-transform: uppercase;
+font-size: 18px;
+margin-bottom: 40px;
+font-weight: 500;
+}
+
+.teambutton2 {
+    width: 660px;
+    height: 70px;
+    margin-left: 50px;
+    background-color:white;
+    color: #540B51;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    border-color: #540B51; 
+    margin-bottom: 40px;
+}
+
+.stats {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-bottom: 60px;
+    margin-bottom: 0%;
+
+}
+
+.stats span {
+    font-size: 50px;
+    font-weight: 600;
+    color: #540B51;
+}
+
+.stats p {
+    font-weight: bolder;
+    margin-top: 40px;
+
+}
+
+.stats sup {
+    vertical-align: middle;
+    font-size: larger;
+}
+
+.digital {
+    color:white;
+    text-align: center;
+    background-color: #540B51;
+}
+
+h3 {
+    margin-top: 0%;
+}
+.dig-button {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    max-width: 700px;
+}
+
+.dig-button1 {
+    width: 660px;
+    height: 70px;
+    margin-left: 50px;
+    color: white;
+    background-color: #540B51;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    border-color: white;
+    border-width: 2px;
+    margin-bottom: 40px;
+}
+
+.dig-button2 {
+    width: 660px;
+    height: 70px;
+    margin-left: 50px;
+    background-color:white;
+    color: #540B51;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    border-color: #540B51; 
+    margin-bottom: 40px;
+}
+
+
+footer {
+padding-top: 80px;   
+    background-color: white;
+
+}
+
+.columns {
+display: flex;
+justify-content: space-evenly;
+line-height: 60px;
+}
+
+.columns ul {
+    list-style-type: none;
+}
+
+.slack-logo2 {
+    margin-left: 50px;
+}
+
+.whyslack {
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.slackvs {
+    line-height: 20px;  
+}
+
+.prod {
+    font-weight: 600;
+}
+
+.price {
+    font-weight: 600; 
+}
+
+.co {
+    font-weight: 600; 
+}
+.footerlist {
+    list-style-type: none;
+    line-height: 50px;
+    font-weight: 700;
+    color: #454245;
+}
+
+.contain {
+    display: flex;
+    align-items: baseline;
+
+}
+.world {
+    margin-right: 5px;
+}
+
+.down {
+    display: flex;
+    align-items: baseline;
+    color: #2E71A6;
+}
+
+.download {
+    margin-right: 5px;
+}
+
+.social ul{
+    list-style-type: none;
+   }
+
+   .socials {
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   .copyright {
+        text-align: center;
+    color: #454245;
+   }
+
+   @media (min-width:769px) and (max-width:1024px) {
+
+    body {
+        margin:auto
+    }
+    nav {
+       
+        background-color: #540B51;
+    }
+
+    .slack-icon {
+        margin-left: 50px;
+   }
+
+   header {
+    display: flex;
+    background-color: #540B51;
+    }
+
+header h1 {
+    margin-right: 300px;
+    text-align: start;
+    font-size: 80px;
+}
+
+header p {
+    margin-right: 200px;
+}
+
+.sign-up {
+    align-items:flex-start;
+}
+.sign-up-button {
+    margin-left: 10px;
+ 
+}
+.google-button {
+    margin-left: 10px;
+}
+
+.hero-2 {
+    width: 370px;
+    height: 350px;
+    margin-right: 70px;
+    margin-top: 200px;
+   }
+   .company {
+    max-width: 100%;
+    background-color: #F3EAE2;
+   }
+
+.logo-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.airbnb {
+    width: 150px;
+    height: 70px;
+    margin-top: 20px;
+}
+.nasa {
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+.uber {
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.target {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.nyt {
+    width: 180px;
+    height: 110px;
+}
+
+.spotify {
+    width: 170px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.connect {
+    width:  800px;
+    height: 600px;
+    margin-top: -3px;
+    margin-bottom: -30px;
+}
+
+.flexibility {
+    width:  800px;
+    height: 600px;
+    margin-top: -3px;
+    margin-bottom: -5px;
+    margin-left: 220px;
+}
+
+.speed {
+    width:  800px;
+    height: 600px;
+    margin-top: -3px;
+
+  
+}
+   h2 {
+    font-size: 30px;
+    margin-left: 280px;
+   
+   }
+
+.channel  p {
+    margin-left: 280px;
+}
+
+.work p {
+    margin-left: 280px;
+}
+
+.fast p {
+    margin-left: 280px;
+}
+.link1 {
+    margin-left: 280px;
+   }
+
+   .link2 {
+    margin-left: 280px;
+   }
+
+   .link3 {
+    margin-left: 280px;
+   }
+
+   .teams{
+    border-bottom: 0%;
+   }
+   .teams-buttons {
+display: flex;
+flex-direction: row
+   }
+   .teambutton2 {
+    width: 400px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0%;
+}
+
+.digital {
+    background-color: #540B51;
+}
+
+h3 {
+    margin-top: -15px;
+}
+.dig-button {
+    margin-left: 100px;
+}
+
+.slack-logo2 {
+    margin-left: 100px;
+}
+
+   }
+
